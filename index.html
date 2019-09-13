@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Email Validation Checker</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+
+    <div class="box">
+        <h1>Prevent Fraud</h1>
+        <p>Enter an email address below to check in real-time if it's real, using our free online email validator. </p>
+            <form action="">
+                    <input type="text" name="" id="email">
+                    <button id="validateBut">Check Email</button>
+          </form>
+          <p id="error">Please enter an email</p>
+          <div class="result" id="results">
+            <ul class="results">
+                <li>Username: <span id="user"></span></li>
+                <li>Email is <span id="valid"></span></li>
+                <li>MX record is <span id="mxrecord"></span></li>
+                <li>Email Domain is <span id="domain"></span></li>
+                <li id="freeEmail"></li>
+                <li>Email score is: <span id="score"></span></li>
+
+            </ul>
+          </div>
+
+    </div>
+    <div class="box">
+        <small>Made with ❤️️ by Isaac</small>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

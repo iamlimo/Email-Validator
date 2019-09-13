@@ -1,0 +1,39 @@
+body{
+    /* background-color: #1918DF; */
+    background-color: black;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.box {
+    margin: auto;
+    width: 70%;
+    padding-top: 200px;
+    text-align: center;
+  }
+
+  #error{
+      color: red;
+      display: none;
+  }
+
+  #email{
+      width: 300px;
+      padding: 5px;
+  }
+
+  #validateBut{
+      padding: 5px;
+  }
+
+  .result{
+      display: none;
+  }
+
+  ul{
+      list-style-type: none;
+  }
+
+  ul > li {
+      background-color: aliceblue;
+      color: blue;
+  }
